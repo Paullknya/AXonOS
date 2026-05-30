@@ -20,7 +20,7 @@ dd if=boot.bin of=paull-kernel.img bs=512 count=1 conv=notrunc
 dd if=kernel.bin of=paull-kernel.img bs=512 seek=1 conv=notrunc
 qemu-system-i386 -fda paull-kernel.img
 ```
-Features
+### Features
 
   - Protected mode (flat model, GDT, IDT)
 
@@ -36,7 +36,7 @@ Features
 
    - sudo reboot (password: admin)
 
-Roadmap
+### Roadmap
 
    - FAT32 driver (read‑only)
 
@@ -50,6 +50,6 @@ Questions?
 
 Join Discussions or open an Issue.
 
-🔗 Author: Paullknya
+🔗 Author: Paullknya 
 
-💬 Community forum: paullknya.github.io
+💬 Community forum: paullknya.github.io/
